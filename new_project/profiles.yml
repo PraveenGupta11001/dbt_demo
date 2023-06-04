@@ -7,7 +7,7 @@ snowflake:
 
       # User/password auth
       user: praveen11001
-      password : praveen11001@G
+      password : admin@123G
 
       role: ACCOUNTADMIN
       database: demo_db_try
@@ -15,7 +15,7 @@ snowflake:
       schema: demo_schema
       threads: 10
       client_session_keep_alive: false
-      query_tag: show databases;
+      query_tag: select * from db_manage.demo_schema.shop_demo
 
       # optional
       connect_retries: 0 # default 0
